@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    public abstract class BaseEntity
+    public abstract class BaseEntity<Tkey>
     {
-        public virtual int Id { get; protected set; }
+        public Tkey Id { get; protected set; }
 
     }
 }

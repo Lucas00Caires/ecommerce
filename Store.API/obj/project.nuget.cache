@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HuK2rtnk4jd8NNbv7QNWFt5bTTjHbkn1FSxdTVfdXbGlcmlVcPCQWgfSEkJLXeG/F6exV3P5+ITGTu1ErunRyg==",
+  "dgSpecHash": "yrVpRR88hJaVoDfl0XBmT9b//wwlLmp3fkxP9lyL5TlZNrvm5fWNrq0aKgKsfFzQSe9Fj+n83jhoinkGa+3d8A==",
   "success": true,
   "projectFilePath": "C:\\PersonalProject\\SilverCommerce\\Store.API\\Store.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\lucas.caires\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\lucas.caires\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\lucas.caires\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\lucas.caires\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

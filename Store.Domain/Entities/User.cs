@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    public class User : BaseEntity
+    public class User : BaseEntity<Guid>
     {
         private User() { }
         public User(string name, string email, string password) { 

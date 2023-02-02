@@ -15,7 +15,8 @@ namespace Store.Infrastructure.Configurations
         {
             builder.ToTable("User");
 
-            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id)
+                .ValueGeneratedOnAdd();
 
             builder.Property(x => x.Name)
                 .HasConversion(x => x.ToString(), x => x)
@@ -24,13 +25,13 @@ namespace Store.Infrastructure.Configurations
                 .HasColumnType("varchar(100)");
 
             builder.Property(x =>x.Email)
-                 .HasConversion(x => x.ToString(), x => x)
+                .HasConversion(x => x.ToString(), x => x)
                 .IsRequired()
                 .HasColumnName("Email")
                 .HasColumnType("varchar(100)");
 
-            builder.Property(prop => prop.Password)
-                .HasConversion(prop => prop.ToString(), prop => prop)
+            builder.Property(x => x.Password)
+                .HasConversion(x => x.ToString(), x => x)
                 .IsRequired()
                 .HasColumnName("Password")
                 .HasColumnType("varchar(100)");

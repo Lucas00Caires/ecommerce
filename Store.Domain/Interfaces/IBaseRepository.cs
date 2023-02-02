@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Interfaces
 {
-    public interface IBaseRepository<TEntity> where TEntity : BaseEntity
+    public interface IBaseRepository<TEntity, Tkey> where TEntity : BaseEntity<Tkey>
     {
         void Add(TEntity obj);
         void Update(TEntity obj);
-        void Delete(TEntity obj);
+        void Delete(Tkey id);
         IList<TEntity> GetAll();
-        TEntity GetAll(int id);
+        TEntity GetById(Tkey id);
+
+
     }
 }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VtmMm/ZqVfC+4PNy8uYOzO7PFC63+zOj95gI/AwXAFX2prNATdq1PsrdzVlm20NJZ711hiZ9PsaGnUfGGBbAng==",
+  "dgSpecHash": "PWPEx6l3lhY2zu7iLTom5m7TrNH8LVOGpZFLWtPS6PvQFWPBE00Ycz4IZwYKLPT1qLHNpC2TMmgzshVKfRazig==",
   "success": true,
   "projectFilePath": "C:\\PersonalProject\\SilverCommerce\\Store.Services\\Store.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\lucas.caires\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
